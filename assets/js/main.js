@@ -18,3 +18,4 @@ for (var i = 0; i < names.length; i++) {
 }
 
 // Scrivi anche la posizione "umana" della lista in cui il nuovo utente si trova
+var userposition = document.getElementById('position').innerHTML = 'Sei al numero ' + (names.indexOf(userName) + 1) + ' della lista';
